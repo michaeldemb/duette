@@ -443,6 +443,13 @@ a:hover {
     color: var(--color-primary-light);
 }
 
+.team__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .team__name {
     font-family: var(--font-heading);
     font-size: 1.375rem;
