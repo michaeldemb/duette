@@ -4,17 +4,17 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-    --color-primary: #2BA4B5;
-    --color-primary-dark: #1A8A9B;
-    --color-primary-light: #7ED4E0;
-    --color-primary-pale: #E8F7FA;
-    --color-red: #D32F2F;
-    --color-red-hover: #B71C1C;
+    --color-primary: #0E7C8C;
+    --color-primary-dark: #094550;
+    --color-primary-light: #2BB5C7;
+    --color-primary-pale: #E0F3F6;
+    --color-red: #ED1C24;
+    --color-red-hover: #C8111A;
     --color-white: #FFFFFF;
-    --color-off-white: #F8FCFD;
-    --color-text: #1E293B;
-    --color-text-muted: #475569;
-    --color-footer: #14747F;
+    --color-off-white: #F7FBFC;
+    --color-text: #1A2332;
+    --color-text-muted: #3E5060;
+    --color-footer: #07333B;
 
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', system-ui, -apple-system, sans-serif;
