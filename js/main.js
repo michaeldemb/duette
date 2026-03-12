@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = document.getElementById('message').value;
 
         const mailtoBody = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-        const mailtoLink = `mailto:info@duetteimmigration.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailtoBody)}`;
+        const mailtoLink = `mailto:info@duettevisa.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailtoBody)}`;
 
         window.location.href = mailtoLink;
     });
