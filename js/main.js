@@ -20,6 +20,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // --- Language Switcher ---
+    const langSwitcher = document.querySelector('.lang-switcher');
+    const langBtn = document.querySelector('.lang-switcher__btn');
+
+    if (langBtn && langSwitcher) {
+        langBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            langSwitcher.classList.toggle('lang-switcher--open');
+        });
+
+        document.addEventListener('click', () => {
+            langSwitcher.classList.remove('lang-switcher--open');
+        });
+    }
+
     // --- Sticky Navbar Shadow on Scroll ---
     const navbar = document.getElementById('navbar');
 
